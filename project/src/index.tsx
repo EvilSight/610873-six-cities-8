@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './components/app/app';
 
 const Setting = {
-  ERRORS_COUNT: 312;
+  ERRORS_COUNT: 312,
 };
 
 ReactDOM.render(
   <React.StrictMode>
     <App
-    errorsCount = {Setting.ERRORS_COUNT}
+      errorsCount={Setting.ERRORS_COUNT}
     />
   </React.StrictMode>,
   document.getElementById('root'));
