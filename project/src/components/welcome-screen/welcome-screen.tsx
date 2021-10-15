@@ -1,19 +1,18 @@
 import Cards from '../cards/cards';
+import Logo from './logo';
 
 type WelcomeScreenProps = {
-  errorsCount: number;
+  offersCount: number;
 }
 
-function WelcomeScreen({errorsCount}: WelcomeScreenProps): JSX.Element {
+function WelcomeScreen({offersCount}: WelcomeScreenProps): JSX.Element {
   return (
     <div className="page page--gray page--main">
       <header className="header">
         <div className="container">
           <div className="header__wrapper">
             <div className="header__left">
-              <a className="header__logo-link header__logo-link--active" href="#">
-                <img className="header__logo" src="img/logo.svg" alt="6 cities logo" width="81" height="41"/>
-              </a>
+              <Logo/>
             </div>
             <nav className="header__nav">
               <ul className="header__nav-list">
@@ -77,7 +76,7 @@ function WelcomeScreen({errorsCount}: WelcomeScreenProps): JSX.Element {
           <div className="cities__places-container container">
             <section className="cities__places places">
               <h2 className="visually-hidden">Places</h2>
-              <b className="places__found">{errorsCount} places to stay in Amsterdam</b>
+              <b className="places__found">{offersCount} places to stay in Amsterdam</b>
               <form className="places__sorting" action="#" method="get">
                 <span className="places__sorting-caption">Sort by</span>
                 <span className="places__sorting-type" tabIndex={0}>

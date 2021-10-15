@@ -9,7 +9,7 @@ const Setting = {
 ReactDOM.render(
   <React.StrictMode>
     <App
-      errorsCount={Setting.ERRORS_COUNT}
+      offersCount={Setting.ERRORS_COUNT}
     />
   </React.StrictMode>,
   document.getElementById('root'));
