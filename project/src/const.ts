@@ -1,15 +1,13 @@
 export enum AppRoute {
-  SignIn = '/login-screen',
+  SignIn = '/login',
   Main = '/',
-  Favorites = '/favorites-screen',
-  FavoritesEmpty = '/favorites-empty-screen',
+  Favorites = '/favorites',
+  FavoritesEmpty = '/favorites-empty',
   Card = '/offer/:id',
-  NotFound = '/not-found-screen',
-  MainEmpty = '/main-empty-screen',
-  NotLogged = '/property-not-logged-screen',
-  Property = '/proproperty-screen',
-  DevArtist = '/dev-artist',
-  DevGenre = '/dev-genre'
+  NotFound = '/not-found',
+  MainEmpty = '/main-empty',
+  NotLogged = '/property-not-logged',
+  Property = '/proproperty'
 }
 
 export enum AuthorizationStatus {

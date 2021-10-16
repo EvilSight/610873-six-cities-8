@@ -2,11 +2,8 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import { AppRoute , AuthorizationStatus } from '../../const';
 import Cards from '../cards/cards';
 import NotFoundScreen from '../not-found-screen/not-found-screen';
-import FavoritesEmptyScreen from '../favorites-empty-screen/favorites-empty-screen';
 import FavoritesScreen from '../favorites-screen/favorites-screen';
 import LoginScreen from '../login-screen/login-screen';
-import MainEmptyScreen from '../main-empty-screen/main-empty-screen';
-import PropertyNotLogged from '../property-not-logged-screen/property-not-logged-screen';
 import PropertyScreen from '../property-screen/property-screen';
 import WelcomeScreen from '../welcome-screen/welcome-screen';
 import PrivateRoute from '../private-route/private-route';
@@ -22,9 +19,6 @@ function App({ offersCount }: AppScreenProps): JSX.Element {
         <Route exact path={AppRoute.Main}>
           <WelcomeScreen offersCount={offersCount} />
         </Route>
-        <Route exact path={AppRoute.MainEmpty}>
-          <MainEmptyScreen/>
-        </Route>
         <Route exact path={AppRoute.SignIn}>
           <LoginScreen />
         </Route>
@@ -33,9 +27,6 @@ function App({ offersCount }: AppScreenProps): JSX.Element {
           authorizationStatus={AuthorizationStatus.NoAuth}
         >
         </PrivateRoute>
-        <Route exact path={AppRoute.FavoritesEmpty}>
-          <FavoritesEmptyScreen />
-        </Route>
         <Route exact path={AppRoute.NotFound}>
           <NotFoundScreen />
         </Route>
@@ -44,9 +35,6 @@ function App({ offersCount }: AppScreenProps): JSX.Element {
         </Route>
         <Route exact path={AppRoute.SignIn}>
           <LoginScreen />
-        </Route>
-        <Route exact path={AppRoute.NotLogged}>
-          <PropertyNotLogged />
         </Route>
         <Route exact path={AppRoute.Property}>
           <PropertyScreen />
