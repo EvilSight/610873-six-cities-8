@@ -16,10 +16,10 @@ export const OFFERS: TCityPlaceCard[] = [
     pricePerNight: 135,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
-      id:1,
+      id: 1,
       isPro: true,
-      name:'Angelina',
-      avatarUrl:'img/avatar-angelina.jpg',
+      name: 'Angelina',
+      avatarUrl: 'img/avatar-angelina.jpg',
     },
     city: {
       location: {
@@ -50,10 +50,10 @@ export const OFFERS: TCityPlaceCard[] = [
     pricePerNight: 135,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
-      id:1,
+      id: 1,
       isPro: true,
-      name:'Angelina',
-      avatarUrl:'img/avatar-angelina.jpg',
+      name: 'Angelina',
+      avatarUrl: 'img/avatar-angelina.jpg',
     },
     city: {
       location: {
@@ -84,10 +84,10 @@ export const OFFERS: TCityPlaceCard[] = [
     pricePerNight: 135,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
-      id:1,
+      id: 1,
       isPro: true,
-      name:'Angelina',
-      avatarUrl:'img/avatar-angelina.jpg',
+      name: 'Angelina',
+      avatarUrl: 'img/avatar-angelina.jpg',
     },
     city: {
       location: {
@@ -118,10 +118,10 @@ export const OFFERS: TCityPlaceCard[] = [
     pricePerNight: 135,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
-      id:1,
+      id: 1,
       isPro: true,
-      name:'Angelina',
-      avatarUrl:'img/avatar-angelina.jpg',
+      name: 'Angelina',
+      avatarUrl: 'img/avatar-angelina.jpg',
     },
     city: {
       location: {
