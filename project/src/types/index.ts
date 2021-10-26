@@ -1,1 +1,1 @@
-export type { default as TCityPlaceCard } from './city-place-card';
+export type { default as TCityPlaceCard } from '../types/city-place-card';
