@@ -1,4 +1,4 @@
-import { TCityPlaceCard } from '../../types/index';
+import { TCityPlaceCard } from '../types/index';
 
 export const OFFERS: TCityPlaceCard[] = [
   {
