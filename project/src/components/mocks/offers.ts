@@ -1,4 +1,4 @@
-import { TCityPlaceCard } from '../types';
+import { TCityPlaceCard } from '../../types';
 
 export const OFFERS: TCityPlaceCard[] = [
   {
@@ -13,7 +13,7 @@ export const OFFERS: TCityPlaceCard[] = [
     rating: 4,
     bedrooms: 3,
     maxAdults: 4,
-    pricePerNight: 135,
+    price: 135,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
       id: 1,
@@ -47,7 +47,7 @@ export const OFFERS: TCityPlaceCard[] = [
     rating: 4,
     bedrooms: 3,
     maxAdults: 4,
-    pricePerNight: 135,
+    price: 135,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
       id: 1,
@@ -81,7 +81,7 @@ export const OFFERS: TCityPlaceCard[] = [
     rating: 4,
     bedrooms: 3,
     maxAdults: 4,
-    pricePerNight: 135,
+    price: 135,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
       id: 1,
@@ -115,7 +115,7 @@ export const OFFERS: TCityPlaceCard[] = [
     rating: 4,
     bedrooms: 3,
     maxAdults: 4,
-    pricePerNight: 135,
+    price: 135,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
       id: 1,
