@@ -37,21 +37,21 @@ export const OFFERS: TCityPlaceCard[] = [
   {
     id: 2,
     images: ['img/apartment-01.jpg', 'img/apartment-02.jpg', 'img/apartment-03.jpg', 'img/apartment-01.jpg', 'img/apartment-02.jpg', 'img/apartment-03.jpg'],
-    type: 'Apartment',
+    type: 'Private room',
     title: 'Beautiful & luxurious apartment at great location',
     previewImage: 'img/apartment-01.jpg',
-    isFavorite: false,
-    isPremiun: true,
+    isFavorite: true,
+    isPremiun: false,
     rating: 4,
-    bedrooms: 3,
-    maxAdults: 4,
+    bedrooms: 2,
+    maxAdults: 5,
     price: 80,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
-      id: 1,
+      id: 2,
       isPro: true,
-      name: 'Angelina',
-      avatarUrl: 'img/avatar-angelina.jpg',
+      name: 'Max',
+      avatarUrl: 'img/avatar-max.jpg',
     },
     city: {
       location: {
@@ -70,7 +70,7 @@ export const OFFERS: TCityPlaceCard[] = [
   {
     id: 3,
     images: ['img/apartment-01.jpg', 'img/apartment-02.jpg', 'img/apartment-03.jpg', 'img/apartment-01.jpg', 'img/apartment-02.jpg', 'img/apartment-03.jpg'],
-    type: 'Apartment',
+    type: 'Private room',
     title: 'Beautiful & luxurious apartment at great location',
     previewImage: 'img/apartment-01.jpg',
     isFavorite: false,
@@ -81,10 +81,10 @@ export const OFFERS: TCityPlaceCard[] = [
     price: 65,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
-      id: 1,
+      id: 3,
       isPro: true,
-      name: 'Angelina',
-      avatarUrl: 'img/avatar-angelina.jpg',
+      name: 'Max',
+      avatarUrl: 'img/avatar-max.jpg',
     },
     city: {
       location: {
@@ -108,13 +108,13 @@ export const OFFERS: TCityPlaceCard[] = [
     previewImage: 'img/apartment-01.jpg',
     isFavorite: false,
     isPremiun: true,
-    rating: 4,
+    rating: 5,
     bedrooms: 3,
     maxAdults: 4,
     price: 123,
     goods: ['Wi-Fi', 'Heating', 'Washing machine', 'Towels', 'Baby seat', 'Cabel TV'],
     host: {
-      id: 1,
+      id: 4,
       isPro: true,
       name: 'Angelina',
       avatarUrl: 'img/avatar-angelina.jpg',
